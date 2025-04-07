@@ -1,0 +1,13 @@
+/.DS_Store
+/musicnet.json
+/musicnet_dataset.json
+/musicnet_dataset_latent_vectors.json
+/musicnet_dataset_umap_2d.json
+/musicnet_latent_vectors.json
+/musicnet_metadata.json
+/musicnet_umap_2d.json
+/musicnet_umap_metadata.json
+/output_dataset.json
+/output_dataset_latent_vectors.json
+/output_dataset_umap_2d.json
+/venv
