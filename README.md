@@ -106,6 +106,25 @@ All features are normalized to the range [0, 1] before being saved to the JSON f
 
 This repository includes a Max patcher (`latent_space_explorer.maxpat`) that allows you to interactively explore the latent space of your RAVE models. The patcher requires the `mcs.nn~` external object to be compiled from source.
 
+### File Organization
+
+For the Max patcher to work correctly:
+
+1. Place all generated JSON files in the `datasets` folder of this repository
+2. When running `rave_latent_explorer.py`, use the same base name for the output files as your model file name (without the .ts extension)
+
+For example, if your model is named `birds_dawnchorus.ts`, run:
+```bash
+python rave_latent_explorer.py birds_dawnchorus.ts birds_dawnchorus
+```
+
+This will generate files like:
+- `datasets/birds_dawnchorus.json`
+- `datasets/birds_dawnchorus_latent_vectors.json`
+- `datasets/birds_dawnchorus_metadata.json`
+- `datasets/birds_dawnchorus_umap_2d.json`
+- `datasets/birds_dawnchorus_umap_metadata.json`
+
 ### Compiling mcs.nn~
 
 To use the Max patcher, you'll need to compile the `mcs.nn~` external from the [mcs.nn_tilde_bending_MaxMSP](https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP/tree/master) repository:
