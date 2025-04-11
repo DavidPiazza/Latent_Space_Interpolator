@@ -1,14 +1,3 @@
-{
-  "original_output_file": "musicnet.json",
-  "num_samples": 5000,
-  "original_dimensions": 37,
-  "reduced_dimensions": 2,
-  "feature_normalization": "MinMax [0, 1]",
-  "umap_normalization": "MinMax [0, 1]",
-  "umap_n_neighbors": 15,
-  "umap_min_dist": 0.1,
-  "umap_metric": "euclidean",
-  "latent_dimensions": 16,
-  "model_path": "/Users/davidpiazza/RAVE_models/musicnet.ts",
-  "decoded_frames_per_sample": 12
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69b69a5cc68f3a7423dbd747b97d6a573e220bbd349c752db93a1b48f5d04346
+size 413

@@ -1,14 +1,3 @@
-{
-  "original_output_file": "magnets_b2048_r48000_z8.json",
-  "num_samples": 5000,
-  "original_dimensions": 37,
-  "reduced_dimensions": 2,
-  "feature_normalization": "MinMax [0, 1]",
-  "umap_normalization": "MinMax [0, 1]",
-  "umap_n_neighbors": 15,
-  "umap_min_dist": 0.1,
-  "umap_metric": "euclidean",
-  "latent_dimensions": 8,
-  "model_path": "/Users/davidpiazza/RAVE_models/magnets_b2048_r48000_z8.ts",
-  "decoded_frames_per_sample": 12
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:822b0553c0e44ab94328133d1b1632f97429375bca951173f30b9fafedaf1109
+size 442

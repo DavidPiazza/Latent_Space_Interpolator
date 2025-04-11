@@ -1,14 +1,3 @@
-{
-  "original_output_file": "birds_motherbird_b2048_r48000_z16.json",
-  "num_samples": 5000,
-  "original_dimensions": 37,
-  "reduced_dimensions": 2,
-  "feature_normalization": "MinMax [0, 1]",
-  "umap_normalization": "MinMax [0, 1]",
-  "umap_n_neighbors": 15,
-  "umap_min_dist": 0.1,
-  "umap_metric": "euclidean",
-  "latent_dimensions": 16,
-  "model_path": "/Users/davidpiazza/RAVE_models/birds_motherbird_b2048_r48000_z16.ts",
-  "decoded_frames_per_sample": 12
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fed3483634ed611a6f91378c48029fe729e8da7d299160fca33d6337e7de21f3
+size 463
