@@ -1,0 +1,14 @@
+{
+  "original_output_file": "humpbacks_pondbrain_b2048_r48000_z20.json",
+  "num_samples": 5000,
+  "original_dimensions": 37,
+  "reduced_dimensions": 2,
+  "feature_normalization": "MinMax [0, 1]",
+  "umap_normalization": "MinMax [0, 1]",
+  "umap_n_neighbors": 15,
+  "umap_min_dist": 0.1,
+  "umap_metric": "euclidean",
+  "latent_dimensions": 20,
+  "model_path": "/Users/davidpiazza/RAVE_models/humpbacks_pondbrain_b2048_r48000_z20.ts",
+  "decoded_frames_per_sample": 12
+}
