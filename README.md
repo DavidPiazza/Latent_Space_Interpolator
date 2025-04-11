@@ -162,13 +162,7 @@ After compilation, copy the resulting `mcs.nn~.mxo` file to your Max/MSP externa
 2. Load your RAVE model using the file browser
 3. Use the interface to explore the latent space and generate audio in real-time
 
-## Notes
-
-- The script requires a pre-trained RAVE model in TorchScript format (.ts)
-- For best performance, use a CUDA-capable GPU
-- The UMAP projection uses default parameters (n_neighbors=15, min_dist=0.1)
-- The script handles silent or problematic audio samples gracefully
-
 ## License
 
-[Add your license information here] 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
