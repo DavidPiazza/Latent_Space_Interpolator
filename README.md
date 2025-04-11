@@ -102,6 +102,47 @@ The script extracts the following audio features using librosa:
 
 All features are normalized to the range [0, 1] before being saved to the JSON files.
 
+## Max/MSP Integration
+
+This repository includes a Max patcher (`latent_space_explorer.maxpat`) that allows you to interactively explore the latent space of your RAVE models. The patcher requires the `mcs.nn~` external object to be compiled from source.
+
+### Compiling mcs.nn~
+
+To use the Max patcher, you'll need to compile the `mcs.nn~` external from the [mcs.nn_tilde_bending_MaxMSP](https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP/tree/master) repository:
+
+#### macOS
+1. Download the latest libtorch (CPU) from [PyTorch's website](https://pytorch.org/) and unzip it to a known directory
+2. Run the following commands:
+```bash
+git clone https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP --recursive
+cd mcs.nn_tilde_bending_MaxMSP
+mkdir build
+cd build
+cmake ../src/ -DCMAKE_PREFIX_PATH=/path/to/libtorch -DCMAKE_BUILD_TYPE=Release -DVERSION="1.5.7"
+make
+```
+
+#### Windows
+1. Download Libtorch (CPU) and dependencies from [PyTorch's website](https://pytorch.org/)
+2. Install Visual Studio and the C++ tools
+3. Run the following commands:
+```bash
+git clone https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP --recurse-submodules
+cd mcs.nn_tilde_bending_MaxMSP
+mkdir build
+cd build
+cmake ..\src -A x64 -DCMAKE_PREFIX_PATH="<unzipped libtorch directory>" -DPUREDATA_INCLUDE_DIR="<path-to-pd/src>" -DPUREDATA_BIN_DIR="<path-to-pd/bin>"
+cmake --build . --config Release
+```
+
+After compilation, copy the resulting `mcs.nn~.mxo` file to your Max/MSP externals folder.
+
+### Using the Max Patcher
+
+1. Open `latent_space_explorer.maxpat` in Max/MSP
+2. Load your RAVE model using the file browser
+3. Use the interface to explore the latent space and generate audio in real-time
+
 ## Notes
 
 - The script requires a pre-trained RAVE model in TorchScript format (.ts)
