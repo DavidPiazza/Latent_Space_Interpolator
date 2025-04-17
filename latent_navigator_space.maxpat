@@ -10,11 +10,34 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1009.0, 802.0, 344.0, 498.0 ],
+		"rect" : [ 325.0, 468.0, 355.0, 522.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"toolbars_unpinned_last_save" : 15,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 759.00199282169342, 1789.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 483.0, 1536.0, 29.5, 22.0 ],
+					"text" : "8"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans",
 					"id" : "obj-215",
@@ -1011,6 +1034,10 @@
 							"number" : 6,
 							"data" : [ 5, "obj-88", "live.slider", "float", 13.205502510070801, 5, "obj-109", "live.dial", "float", 7.0, 5, "obj-78", "live.dial", "float", 20.0, 5, "obj-72", "live.dial", "float", 57.0 ]
 						}
+, 						{
+							"number" : 7,
+							"data" : [ 5, "obj-88", "live.slider", "float", 13.205502510070801, 5, "obj-109", "live.dial", "float", 7.0, 5, "obj-78", "live.dial", "float", 43.0, 5, "obj-72", "live.dial", "float", 48.0 ]
+						}
  ]
 				}
 
@@ -1990,7 +2017,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-11",
-					"items" : [ "birds_dawnchorus_b2048_r48000_z8.ts", ",", "birds_motherbird_b2048_r48000_z16.ts", ",", "birds_pluma_b2048_r48000_z12.ts", ",", "crozzoli_bigensemblesmusic_18d.ts", ",", "guitar_iil_b2048_r48000_z16.ts", ",", "humpbacks_pondbrain_b2048_r48000_z20.ts", ",", "magnets_b2048_r48000_z8.ts", ",", "marinemammals_pondbrain_b2048_r48000_z20.ts", ",", "maximum_streaming.ts", ",", "mrp_strengjavera_b2048_r44100_z16.ts", ",", "musicnet.ts", ",", "organ_archive_b2048_r48000_z16.ts", ",", "organ_bach_b2048_r48000_z16.ts", ",", "sax_soprano_franziskaschroeder_b2048_r48000_z20.ts", ",", "voice-multi-b2048-r48000-z11.ts", ",", "voice_hifitts_b2048_r48000_z16.ts", ",", "voice_jvs_b2048_r44100_z16.ts", ",", "voice_vctk_b2048_r44100_z22.ts", ",", "voice_vocalset_b2048_r48000_z16.ts", ",", "water_pondbrain_b2048_r48000_z16.ts" ],
+					"items" : [ "birds_dawnchorus_b2048_r48000_z8.ts", ",", "birds_motherbird_b2048_r48000_z16.ts", ",", "birds_pluma_b2048_r48000_z12.ts", ",", "crozzoli_bigensemblesmusic_18d.ts", ",", "guitar_iil_b2048_r48000_z16.ts", ",", "humpbacks_pondbrain_b2048_r48000_z20.ts", ",", "magnets_b2048_r48000_z8.ts", ",", "marinemammals_pondbrain_b2048_r48000_z20.ts", ",", "maximum_streaming.ts", ",", "modular_model_fid0.95.ts", ",", "mrp_strengjavera_b2048_r44100_z16.ts", ",", "musicnet.ts", ",", "organ_archive_b2048_r48000_z16.ts", ",", "organ_bach_b2048_r48000_z16.ts", ",", "Reaktor1_z16.ts", ",", "sax_soprano_franziskaschroeder_b2048_r48000_z20.ts", ",", "voice-multi-b2048-r48000-z11.ts", ",", "voice_hifitts_b2048_r48000_z16.ts", ",", "voice_jvs_b2048_r44100_z16.ts", ",", "voice_vctk_b2048_r44100_z22.ts", ",", "voice_vocalset_b2048_r48000_z16.ts", ",", "water_pondbrain_b2048_r48000_z16.ts" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2850,6 +2877,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-152", 1 ],
+					"order" : 2,
+					"source" : [ "obj-169", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-158", 1 ],
 					"order" : 0,
 					"source" : [ "obj-169", 2 ]
@@ -3258,6 +3293,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-152", 1 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -3390,6 +3432,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
+					"order" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"order" : 1,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -3482,6 +3533,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-65", 0 ]
 				}
 
 			}
@@ -3818,7 +3876,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-1795",
 		"parameters" : 		{
 			"obj-109" : [ "dispersion_frequency", "freq", 0 ],
 			"obj-13" : [ "pointsize", "pointsize", 0 ],
