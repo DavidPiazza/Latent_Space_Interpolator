@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 509.0, 200.0, 340.0, 555.0 ],
+		"rect" : [ 34.0, 100.0, 1660.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -2319,8 +2319,8 @@
 					"id" : "obj-235",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "message" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 237.179517149925232, 2053.846413373947144, 161.0, 22.0 ],
 					"text" : "mcs.nn~ musicnet.ts decode"
 				}
@@ -2367,8 +2367,8 @@
 					"id" : "obj-123",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "message" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 5.1282057762146, 2053.846413373947144, 161.0, 22.0 ],
 					"text" : "mcs.nn~ musicnet.ts decode"
 				}
@@ -4286,7 +4286,7 @@
 
 			}
  ],
-		"originid" : "pat-30",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-109" : [ "dispersion_frequency", "latent dispersion frequency", 0 ],
 			"obj-13" : [ "pointsize", "pointsize", 0 ],
