@@ -1,6 +1,9 @@
 # RAVE Latent Space Explorer
 
-A Python script for exploring the latent space of pre-trained RAVE models and generating datasets compatible with `fluid.dataset~` in Max/MSP.
+A Python script for exploring the latent space of pre-trained RAVE models and generating datasets compatible with `fluid.dataset~` in Max/MSP, and a Max patch exploring the creative navigation of these datasets. 
+
+![Main Interface](docs/images/main_interface.png)
+*Main interface of the latent space explorer*
 
 ## Overview
 
@@ -104,7 +107,10 @@ All features are normalized to the range [0, 1] before being saved to the JSON f
 
 ## Max/MSP Integration
 
-This repository includes a Max patcher (`latent_space_explorer.maxpat`) that allows you to interactively explore the latent space of your RAVE models. The patcher requires the `mcs.nn~` external object to be compiled from source.
+This repository includes a Max patcher (`latent_space_explorer.maxpat`) that allows you to interactively explore the latent space of your RAVE models. The patcher requires the following Max/MSP packages:
+
+1. [nn_tilde v1.6.0](https://github.com/domkirke/nn_tilde/releases/tag/v1.6.0) from IRCAM
+2. [Fluid Corpus Manipulation toolkit](https://github.com/flucoma/flucoma-max/releases)
 
 ### File Organization
 
@@ -124,37 +130,6 @@ This will generate files like:
 - `datasets/birds_dawnchorus_metadata.json`
 - `datasets/birds_dawnchorus_umap_2d.json`
 - `datasets/birds_dawnchorus_umap_metadata.json`
-
-### Compiling mcs.nn~
-
-To use the Max patcher, you'll need to compile the `mcs.nn~` external from the [mcs.nn_tilde_bending_MaxMSP](https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP/tree/master) repository:
-
-#### macOS
-1. Download the latest libtorch (CPU) from [PyTorch's website](https://pytorch.org/) and unzip it to a known directory
-2. Run the following commands:
-```bash
-git clone https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP --recursive
-cd mcs.nn_tilde_bending_MaxMSP
-mkdir build
-cd build
-cmake ../src/ -DCMAKE_PREFIX_PATH=/path/to/libtorch -DCMAKE_BUILD_TYPE=Release -DVERSION="1.5.7"
-make
-```
-
-#### Windows
-1. Download Libtorch (CPU) and dependencies from [PyTorch's website](https://pytorch.org/)
-2. Install Visual Studio and the C++ tools
-3. Run the following commands:
-```bash
-git clone https://github.com/LucasBrgt/mcs.nn_tilde_bending_MaxMSP --recurse-submodules
-cd mcs.nn_tilde_bending_MaxMSP
-mkdir build
-cd build
-cmake ..\src -A x64 -DCMAKE_PREFIX_PATH="<unzipped libtorch directory>" -DPUREDATA_INCLUDE_DIR="<path-to-pd/src>" -DPUREDATA_BIN_DIR="<path-to-pd/bin>"
-cmake --build . --config Release
-```
-
-After compilation, copy the resulting `mcs.nn~.mxo` file to your Max/MSP externals folder.
 
 ### Using the Max Patcher
 
