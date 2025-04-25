@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1356.0, 544.0, 338.0, 539.0 ],
+		"rect" : [ 281.0, 374.0, 353.0, 551.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -36,7 +36,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.974024772644043, 348.051944732666016, 159.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.855306625366211, 337.163632988929749, 21.0, 21.0 ],
+					"presentation_rect" : [ 28.248587250709534, 337.163632988929749, 21.0, 21.0 ],
 					"text" : "x"
 				}
 
@@ -147,7 +147,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 51.0, -228.571426391601562, 46.753246307373047, 19.48051929473877 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 268.655305922031403, 337.163632988929749, 47.200000703334808, 19.200000286102295 ],
+					"presentation_rect" : [ 272.021537810564041, 337.663632988929749, 47.200000703334808, 19.200000286102295 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -924,7 +924,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1977.142904281616211, 642.857158184051514, 106.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.200002491474152, 335.763633131980896, 99.20000147819519, 22.0 ]
+					"presentation_rect" : [ 51.248587250709534, 336.663632988929749, 99.20000147819519, 22.0 ]
 				}
 
 			}
@@ -1023,7 +1023,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1600.000038146972656, 642.857158184051514, 106.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.855306625366211, 336.163632988929749, 99.20000147819519, 22.0 ]
+					"presentation_rect" : [ 172.855306625366211, 336.263633131980896, 99.20000147819519, 22.0 ]
 				}
 
 			}
@@ -2136,9 +2136,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.0, 80.0, 286.0, 286.0 ],
+					"patching_rect" : [ 31.0, 81.0, 285.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.248587250709534, 80.790959537029266, 285.751412749290466, 246.892652571201324 ],
+					"presentation_rect" : [ 31.124296218156815, 81.904772400856018, 285.751412749290466, 246.892652571201324 ],
 					"viewvisibility" : 1
 				}
 
@@ -2272,7 +2272,7 @@
 					"autopopulate" : 1,
 					"fontname" : "Ableton Sans",
 					"id" : "obj-11",
-					"items" : [ "birds_dawnchorus_b2048_r48000_z8.ts", ",", "birds_motherbird_b2048_r48000_z16.ts", ",", "birds_pluma_b2048_r48000_z12.ts", ",", "crozzoli_bigensemblesmusic_18d.ts", ",", "derek_3mil_streaming.ts", ",", "extension.ts", ",", "freesoundloop10k_default_b2048_r48000_z16.ts", ",", "guitar_iil_b2048_r48000_z16.ts", ",", "humpbacks_pondbrain_b2048_r48000_z20.ts", ",", "magnets_b2048_r48000_z8.ts", ",", "marinemammals_pondbrain_b2048_r48000_z20.ts", ",", "maximum_streaming.ts", ",", "modular_model_fid0.95.ts", ",", "mrp_strengjavera_b2048_r44100_z16.ts", ",", "musicnet.ts", ",", "organ_archive_b2048_r48000_z16.ts", ",", "organ_bach_b2048_r48000_z16.ts", ",", "Reaktor1_z16.ts", ",", "sax_soprano_franziskaschroeder_b2048_r48000_z20.ts", ",", "voice-multi-b2048-r48000-z11.ts", ",", "voice_hifitts_b2048_r48000_z16.ts", ",", "voice_jvs_b2048_r44100_z16.ts", ",", "voice_vctk_b2048_r44100_z22.ts", ",", "voice_vocalset_b2048_r48000_z16.ts", ",", "water_pondbrain_b2048_r48000_z16.ts" ],
+					"items" : [ "birds_dawnchorus_b2048_r48000_z8.ts", ",", "birds_motherbird_b2048_r48000_z16.ts", ",", "birds_pluma_b2048_r48000_z12.ts", ",", "crozzoli_bigensemblesmusic_18d.ts", ",", "derek_3mil_streaming.ts", ",", "extension.ts", ",", "freesoundloop10k_default_b2048_r48000_z16.ts", ",", "guitar_iil_b2048_r48000_z16.ts", ",", "humpbacks_pondbrain_b2048_r48000_z20.ts", ",", "magnets_b2048_r48000_z8.ts", ",", "marinemammals_pondbrain_b2048_r48000_z20.ts", ",", "maximum_streaming.ts", ",", "modular_model_fid0.95.ts", ",", "mrp_strengjavera_b2048_r44100_z16.ts", ",", "musicnet.ts", ",", "organ_archive_b2048_r48000_z16.ts", ",", "organ_bach_b2048_r48000_z16.ts", ",", "Reaktor_v2_z16.ts", ",", "sax_soprano_franziskaschroeder_b2048_r48000_z20.ts", ",", "voice-multi-b2048-r48000-z11.ts", ",", "voice_hifitts_b2048_r48000_z16.ts", ",", "voice_jvs_b2048_r44100_z16.ts", ",", "voice_vctk_b2048_r44100_z22.ts", ",", "voice_vocalset_b2048_r48000_z16.ts", ",", "water_pondbrain_b2048_r48000_z16.ts" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4108,7 +4108,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ -296.951626420021057, 312.083165987860411, -35.698086251970381, 312.083165987860411, -35.698086251970381, 8.327788419555873, 37.5, 8.327788419555873 ],
+					"midpoints" : [ -296.951626420021057, 312.083165987860411, -35.698086251970381, 312.083165987860411, -35.698086251970381, 8.327788419555873, 40.5, 8.327788419555873 ],
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -4286,7 +4286,7 @@
 
 			}
  ],
-		"originid" : "pat-88",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-109" : [ "dispersion_frequency", "latent dispersion frequency", 0 ],
 			"obj-13" : [ "pointsize", "pointsize", 0 ],
